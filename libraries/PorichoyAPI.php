@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class PorichoyAPI {
     // Define the API URL and the API Key
     private $api_url = 'https://api.porichoybd.com//api/v2/verifications/autofill';
-    private $api_key = 'aa431cbd-336d-4421-aaba-5182343b9922'; // Replace with your actual API key
+    private $api_key = 'apiKey'; // Replace with your actual API key
 
     // Constructor
     public function __construct() {
